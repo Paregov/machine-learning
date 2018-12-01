@@ -13068,8 +13068,10 @@ Based on the evaluation performed the best model is Random Forest.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer: </strong> 
-The model I have chosen is the Random Forest, which is an Ensemble Method technique. It is ensemble of multiple Decision Trees which work with subsets of the input data. Each tree has it's input and based on that is predicting the output. After all of the trees in the forest give their prediction there is a voting. The answer that is given by most of the trees is selected.</p>
-<p>How the Decision Tree works. Decision Tree is a model which make it's decision on steps. Features are places in the root and in the branches. It's going down starting from the root and going through the branches checking the condition and based on the result is selecting left or right branch. In the next branch it is checking the condition again until it reaches the answer. In this case the predistion. Example condition is - age is under 50, so based on the input it continues left or right. In the selected branch we can have - is it male or female and so on.</p>
+The model I have chosen is the Random Forest, which is an Ensemble Method technique. It is ensemble of multiple Decision Trees which work with subsets of the input data. It is called Random Forest, because the subsets are randomly chosen. Each tree has it's input and based on that is predicting the output. After all of the trees in the forest give their prediction there is a voting. The answer that is given by most of the trees is selected.</p>
+<p>How the Decision Tree works.
+Decision Tree builds the model in form of a tree structure. Depending on the features and the end result it splits the features into smaller and smaller subsets. On each split it creates a new branch and puts in there the split condition.</p>
+<p>Once the three is build then we start the prediction by passing the new data to the model. The model then is going down starting from the root and through the branches checking the corresponding feature against the condition and based on the result is selecting some of the next branches. In the next branch it is checking the corresponding feature against the current condition. This is repeated till the answer is reached. In this case the predistion. Example condition is - age is under 50, so based on the input it continues to the coresponding branch. In the selected branch we can have - is it male or female and so on.</p>
 
 </div>
 </div>
